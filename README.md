@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Adding Component
+
+Run `ng generate component components/component-name`. This generates a new component under the components folder
+
+Define `<app-component-name></app-component-name>`. Use this where you want your component to be displayed
+
+Then you can edit the HTML and TS file of that component to display what you want.
+
+## Adding Shared Component
+
+Run `ng generate component shared/component-name`. This generates a new component under the shared folder
+
+Add the import, declaration, and export to the shared.module.ts file. That looks like this:
+
+Import - `import { component-nameComponent } from './component-name/component-name.component';`
+
+Declaration - `component-nameComponent`
+
+Exports - `component-nameComponent`
+
+Define `<app-component-name></app-component-name>`. Use this where you want your component to be displayed
+
+Then you can edit the HTML and TS file of that component to display what you want.
