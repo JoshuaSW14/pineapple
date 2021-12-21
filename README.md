@@ -49,3 +49,23 @@ Exports - `component-nameComponent`
 Define `<app-component-name></app-component-name>`. Use this where you want your component to be displayed
 
 Then you can edit the HTML and TS file of that component to display what you want.
+
+## Git (First Time)
+
+Install Git
+
+Run in Git Bash `git pull https://nerdybean@dev.azure.com/nerdybean/pineapple/_git/pineapple`
+
+## Git Process
+
+Git Status `git status`
+
+Git Add `git add --all`
+
+Git Commit `git commit -m "changes you made"`
+
+Josh
+Git Push `git push origin jsw/new branch name`
+
+Aidan
+Git Push `git push origin aw/new branch name`
