@@ -1,33 +1,48 @@
 <mat-toolbar>
   <!-- Title -->
-  <h2>Pineapple</h2>
+  <div id="title">
+    <h2>Pineapple</h2>
+  </div>
 
   <!-- Navigation Drop Down -->
-  <div class="center">
+  <div id="navDropDown">
     <button mat-button [matMenuTriggerFor]="navigate">Navigate
-    <mat-icon class="iconStyling">keyboard_arrow_down</mat-icon></button>
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
     <button mat-button [matMenuTriggerFor]="about">About
-    <mat-icon class="iconStyling">keyboard_arrow_down</mat-icon></button>
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
     <button mat-button [matMenuTriggerFor]="services">Services
-    <mat-icon class="iconStyling">keyboard_arrow_down</mat-icon></button>
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
     <button mat-button [matMenuTriggerFor]="signup">Sign Up
-    <mat-icon class="iconStyling">keyboard_arrow_down</mat-icon></button>
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
   </div>
 
   <!-- Icons -->
-  <div id="icons">
-    <mat-icon>facebook</mat-icon>
-    <mat-icon>tiktok</mat-icon>
-    <img src="../../../icons/twitter.png">
+  <div id="rightJustify">
+    <div class="flexOne">
+      <mat-icon>facebook</mat-icon>
+      <mat-icon>tiktok</mat-icon>
+      <img class="iconFormatting"
+        src="https://dev.azure.com/nerdybean/767067be-5be4-4133-a373-2a67fbb69415/_apis/git/repositories/59c0f136-d7b0-4142-9c3b-c44dabb72135/items?path=/src/icons/twitter.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=2&versionDescriptor%5Bversion%5D=8f5370748d20f01e292c8a30fc78381f7832accd&resolveLfs=true&%24format=octetStream&api-version=5.0">
+      <img id="instagramFormatting"
+        src="https://dev.azure.com/nerdybean/767067be-5be4-4133-a373-2a67fbb69415/_apis/git/repositories/59c0f136-d7b0-4142-9c3b-c44dabb72135/items?path=/src/icons/instagram.png&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=aw/toolbar_styling&resolveLfs=true&%24format=octetStream&api-version=5.0">
+
+    </div>
+    
+    <!-- Search Bar -->
+    <mat-form-field appearance=outline>
+      <div>
+        <mat-icon>search</mat-icon>
+        <input type="text" matInput>
+      </div>
+    </mat-form-field>
+    <!-- Sign In -->
+    <button mat-button>Sign In</button>
   </div>
 
-  <!-- Search Bar -->
-  <mat-form-field>
-    <input type="text" matInput>
-  </mat-form-field>
-
-  <!-- Sign In -->
-  <button mat-button class="rightAdjust">Sign In</button>
 </mat-toolbar>
 
 <!-- DropDown Menu -->

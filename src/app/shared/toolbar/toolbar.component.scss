@@ -1,16 +1,75 @@
 mat-toolbar{
-    display: flex;
+     display: flex;
+     white-space:wrap;
 }
 
-.iconStyling{
-    vertical-align: middle;
+div{
+    //padding-right:5%;
 }
 
-.center{
+#title{
+    //flex:1;
+}
+
+#navDropDown{
     display:flex;
-    align-items:center;
-    justify-content: center;
+    //justify-content:center;
+    //flex:2;
 }
-#icons{
-    margin-left:auto;
+
+#rightJustify{
+    display:flex;
+    justify-content:right;
+    //flex:1;
+    
 }
+
+.flexOne{
+    display:inline;
+}
+
+// mat-icon{
+//     vertical-align:middle;
+// }
+
+// mat-form-field{
+//     margin-top:0.5em;
+
+// }
+
+.iconFormatting{
+    opacity:85%;
+    height:21px;
+    width:21px;
+    padding-right:5%;
+}
+
+#instagramFormatting{
+    opacity:85%;
+    height:20px;
+    width:20px;
+    padding-right:5%;
+}
+
+// .searchFormatting{
+//     height:24px;
+//     width:24px;
+//     opacity:100%;
+// }
+
+// #icons{
+//     margin-left:auto;
+//     margin-top:auto;
+//     margin-bottom:auto;
+//     opacity:75%;
+// }
+
+// .borderStyling{
+//     opacity:60%;
+//     border: 2px solid black;
+//     box-shadow: 1px 1px black;
+//     height:24px;
+//     margin-left:15%;
+//     margin-right:15%;
+//     border-radius:15px;
+// }
