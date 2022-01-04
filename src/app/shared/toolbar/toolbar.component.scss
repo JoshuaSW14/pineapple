@@ -3,6 +3,10 @@ mat-toolbar{
      white-space:wrap;
 }
 
+mat-form-field{
+    font-size:9px;
+}
+
 div{
     //padding-right:5%;
 }
@@ -12,20 +16,14 @@ div{
 }
 
 #navDropDown{
-    display:flex;
     //justify-content:center;
     //flex:2;
 }
 
 #rightJustify{
-    display:flex;
-    justify-content:right;
     //flex:1;
-    
-}
-
-.flexOne{
-    display:inline;
+    height:50%;
+    margin-left:auto;
 }
 
 // mat-icon{
@@ -39,16 +37,16 @@ div{
 
 .iconFormatting{
     opacity:85%;
-    height:21px;
-    width:21px;
-    padding-right:5%;
+    height:22px;
+    width:22px;
 }
 
 #instagramFormatting{
     opacity:85%;
-    height:20px;
-    width:20px;
-    padding-right:5%;
+    height:21px;
+    width:21px;
+    margin-right:10px;
+    margin-left:5px;
 }
 
 // .searchFormatting{
