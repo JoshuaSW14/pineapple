@@ -1,0 +1,73 @@
+mat-toolbar{
+     display: flex;
+     white-space:wrap;
+}
+
+mat-form-field{
+    font-size:9px;
+}
+
+div{
+    //padding-right:5%;
+}
+
+#title{
+    //flex:1;
+}
+
+#navDropDown{
+    //justify-content:center;
+    //flex:2;
+}
+
+#rightJustify{
+    //flex:1;
+    height:50%;
+    margin-left:auto;
+}
+
+// mat-icon{
+//     vertical-align:middle;
+// }
+
+// mat-form-field{
+//     margin-top:0.5em;
+
+// }
+
+.iconFormatting{
+    opacity:85%;
+    height:22px;
+    width:22px;
+}
+
+#instagramFormatting{
+    opacity:85%;
+    height:21px;
+    width:21px;
+    margin-right:10px;
+    margin-left:5px;
+}
+
+// .searchFormatting{
+//     height:24px;
+//     width:24px;
+//     opacity:100%;
+// }
+
+// #icons{
+//     margin-left:auto;
+//     margin-top:auto;
+//     margin-bottom:auto;
+//     opacity:75%;
+// }
+
+// .borderStyling{
+//     opacity:60%;
+//     border: 2px solid black;
+//     box-shadow: 1px 1px black;
+//     height:24px;
+//     margin-left:15%;
+//     margin-right:15%;
+//     border-radius:15px;
+// }
