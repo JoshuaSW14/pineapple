@@ -21,10 +21,12 @@ import {MatInputModule} from '@angular/material/input';
 
 
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    ToolbarComponent
+    ToolbarComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -37,7 +39,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     MatInputModule
   ],
   exports: [
-    ToolbarComponent
+    ToolbarComponent,
+    FooterComponent
   ]
 })
 

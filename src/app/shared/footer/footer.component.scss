@@ -1,0 +1,39 @@
+#mat-footer{
+    width:99%;
+}
+
+.block{
+    display: block;
+}
+
+#slogan{
+    margin-left:2em;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+.noMargin{
+    margin-bottom:0%;
+    margin-left:1em;
+}
+
+ul{
+    margin-top:0em;
+    margin-bottom:0em;
+}
+
+#childContainer{
+    margin-left:1em;
+    margin-right:1em;
+    margin-bottom:1em;
+    width:99%;
+    display: inline-flex;
+    //left towards right (default)
+    flex-direction: row;
+    //all on one line (default)
+    flex-wrap:wrap;
+    //evenly distribute items in line
+    justify-content:space-between;
+    //y-axis centering
+    align-items: top;
+}

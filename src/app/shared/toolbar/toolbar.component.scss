@@ -1,39 +1,59 @@
+body{
+    margin-left:5%;
+    margin-right:5%;
+}
+
 mat-toolbar{
-     display: flex;
-     white-space:wrap;
+    display: inline-flex;
+    //left towards right (default)
+    flex-direction: row;
+    //all on one line (default)
+    flex-wrap:wrap;
+    //evenly distribute items in line
+    justify-content: space-between;
+    //y-axis centering 
+    align-items: center;
+}
+
+#dropDownContainer{
+    width:35%;
+    display: inline-flex;
+    //left towards right(default)
+    flex-direction:row;
+    //all on one line (default)
+    flex-wrap:nowrap;
+    //evenly distribute items in line
+    justify-content:space-between;
+    //y-axis centering
+    align-items:center;
+}
+
+#socialContainer{
+    display: inline-flex;
+    //left towards right (default)
+    flex-direction:row;
+    //all on one line (default)
+    flex-wrap:wrap;
+    //evenly distribute items in line
+    justify-content:flex-end;
+    //y-xis centering
+    align-items:center;
+}
+
+#searchNAccountContainer{
+    display: inline-flex;
+    flex-direction:row;
+    //all on one line (default)
+    flex-wrap:wrap;
+    //evenly distribute items in line
+    justify-content:flex-end;
+    //y-xis centering
+    align-items:center;
 }
 
 mat-form-field{
     font-size:9px;
 }
-
-div{
-    //padding-right:5%;
-}
-
-#title{
-    //flex:1;
-}
-
-#navDropDown{
-    //justify-content:center;
-    //flex:2;
-}
-
-#rightJustify{
-    //flex:1;
-    height:50%;
-    margin-left:auto;
-}
-
-// mat-icon{
-//     vertical-align:middle;
-// }
-
-// mat-form-field{
-//     margin-top:0.5em;
-
-// }
 
 .iconFormatting{
     opacity:85%;
@@ -48,26 +68,3 @@ div{
     margin-right:10px;
     margin-left:5px;
 }
-
-// .searchFormatting{
-//     height:24px;
-//     width:24px;
-//     opacity:100%;
-// }
-
-// #icons{
-//     margin-left:auto;
-//     margin-top:auto;
-//     margin-bottom:auto;
-//     opacity:75%;
-// }
-
-// .borderStyling{
-//     opacity:60%;
-//     border: 2px solid black;
-//     box-shadow: 1px 1px black;
-//     height:24px;
-//     margin-left:15%;
-//     margin-right:15%;
-//     border-radius:15px;
-// }
